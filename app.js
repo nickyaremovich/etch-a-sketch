@@ -7,5 +7,5 @@ for (let i = 0; i < 256; i++) {
 };
 
 gridItem.addEventListener("mouseover", () => {
-    gridItem.classList.add("color-change");
+    gridItem.style.backgroundColor = "black";
 });
