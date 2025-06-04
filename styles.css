@@ -3,10 +3,29 @@
     padding: 0;
 
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #grid-container {
     border: black 1px dotted;
     height: 400px;
     width: 400px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+}
+
+.grid-item {
+    background-color: grey;
+    width: calc(400px / 16);
+    height: calc(400px / 16);
+}
+h3 {
+    text-align: center;
+}
+button {
+    margin: auto;
 }
