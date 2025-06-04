@@ -10,7 +10,3 @@
     display: flex;
     flex-wrap: wrap;
 }
-.grid-item {
-  width: calc(400px / 16);
-  height: calc(400px / 16);
-}
