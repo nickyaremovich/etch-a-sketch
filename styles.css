@@ -4,3 +4,16 @@
     padding: 0;
 
 }
+.grid-container {
+    border: black 1px dotted;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-item {
+  width: calc(400px / 16);
+  height: calc(400px / 16);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
