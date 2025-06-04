@@ -5,3 +5,7 @@ for (let i = 0; i < 256; i++) {
     gridItem.classList.add("grid-item");
     container.appendChild(gridItem);
 };
+
+gridItem.addEventListener("mouseover", () => {
+    gridItem.classList.add("color-change");
+});
