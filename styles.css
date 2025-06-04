@@ -13,6 +13,4 @@
 .grid-item {
   width: calc(400px / 16);
   height: calc(400px / 16);
-  background-color: rgb(255, 255, 255);
-
 }
